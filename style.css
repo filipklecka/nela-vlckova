@@ -249,9 +249,9 @@ button#mobile-menu.close .bar:last-child {
 }
 
 .one-grid-characteristic {
-    padding: 2rem 1.4rem;
+    padding: 1.5rem 1.4rem;
     background: var(--classic-white-color);
-    box-shadow: rgba(0, 0, 0, .04) 0 3px 5px;
+    border: 1px solid #e2e2e2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -392,7 +392,7 @@ h1 {
     text-decoration: none;
     letter-spacing: 0.02em;
     padding-inline: 2rem;
-    height: 45px;
+    height: 50px;
     font-family: 'Font Bold', sans-serif;
     border-radius: 4px;
 }
@@ -942,10 +942,11 @@ input[type="submit"] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: .8rem;
-    height: 42px;
-    width: 120px;
-    margin-top: 1rem;
+    font-size: .9rem;
+    height: 46px;
+    width: fit-content;
+    margin-top: .5rem;
+    font-weight: 700;
 }
 
 .error-msg {

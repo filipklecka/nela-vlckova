@@ -203,7 +203,7 @@
                             </span>
                         </label>
                     </div>
-                    <input type="submit" value="Odeslat" class="cta-button primary-button">
+                    <input type="submit" value="Chci být součástí týmu" class="cta-button primary-button">
                 </form>
             </div>
         </section>

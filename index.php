@@ -279,7 +279,7 @@ function format_cz_date($isoDate) {
                             </span>
                         </label>
                     </div>
-                    <input type="submit" value="Odeslat" class="cta-button primary-button">
+                    <input type="submit" value="Chci se poradit" class="cta-button primary-button">
                 </form>
                 <div class="email-and-phone contact-wrapper">
                     <div class="email">
