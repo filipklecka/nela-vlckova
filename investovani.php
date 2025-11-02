@@ -50,6 +50,14 @@
 <body>
     <?php require_once "./templates/header.php" ?>
     <main>
+        <?php
+            $breadcrumbs = [
+                ['label' => 'Úvod', 'url' => 'index.php'],
+                ['label' => 'Služby', 'url' => 'index.php#sluzby'],
+                ['label' => 'Investování']
+            ];
+            require_once "./templates/breadcrumbs.php";
+        ?>
         <section>
             <div class="richtext-section">
                 <h1 class="relative service-heading"><span class="blue-color">Investování</span> – chytře, bezpečně a s jasným cílem</h1>

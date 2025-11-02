@@ -51,6 +51,13 @@
 <body>
     <?php require_once "./templates/header.php" ?>
     <main>
+        <?php
+            $breadcrumbs = [
+                ['label' => 'Úvod', 'url' => 'index.php'],
+                ['label' => 'Zásady ochrany osobních údajů']
+            ];
+            require_once "./templates/breadcrumbs.php";
+        ?>
         <div class="narrow-container">
             <h1>Zásady ochrany osobních údajů</h1>
 

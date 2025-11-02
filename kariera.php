@@ -51,6 +51,13 @@
 <body>
     <?php require_once "./templates/header.php" ?>
     <main>
+        <?php
+            $breadcrumbs = [
+                ['label' => 'Úvod', 'url' => 'index.php'],
+                ['label' => 'Kariéra']
+            ];
+            require_once "./templates/breadcrumbs.php";
+        ?>
         <section class="mb2">
             <div class="richtext-section">
                 <h1 class="center service-heading">Pracuj jako <span class="blue-color">finanční poradce</span></h1>

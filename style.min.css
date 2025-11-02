@@ -1515,3 +1515,12 @@ input[type="file"] {
         margin-inline: auto;
     }
 }
+
+
+.breadcrumbs{max-width:1300px;margin:2rem auto;padding:0 1rem;font-size:.9rem;color:var(--text-color,#232121)}
+.breadcrumbs ol{list-style:none;display:flex;flex-wrap:wrap;justify-content: center;gap:.25rem;padding:0;margin:0}
+.breadcrumbs li{display:inline-flex;align-items:center;color:var(--text-color,#232121)}
+.breadcrumbs li+li::before{content:"/";color:var(--text-color);margin:0 .5rem}
+.breadcrumbs a{color:var(--dark-blue-color,#003781);text-decoration:none}
+.breadcrumbs a:focus-visible{outline:2px solid #000;outline-offset:2px;border-radius:2px}
+.breadcrumbs [aria-current="page"]{font-weight:600;color:var(--text-color,#232121)}

@@ -50,6 +50,13 @@
 <body>
     <?php require_once "./templates/header.php" ?>
     <main>
+        <?php
+            $breadcrumbs = [
+                ['label' => 'Úvod', 'url' => 'index.php'],
+                ['label' => 'Kontakt']
+            ];
+            require_once "./templates/breadcrumbs.php";
+        ?>
         <section>
             <div class="h2-bg homepage-photo">
                 <h1 class="service-heading">Kontaktujte mě</h1>

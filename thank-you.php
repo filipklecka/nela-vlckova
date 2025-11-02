@@ -47,6 +47,13 @@
 <body>
     <?php require_once "./templates/header.php" ?>
     <main>
+        <?php
+            $breadcrumbs = [
+                ['label' => 'Úvod', 'url' => 'index.php'],
+                ['label' => 'Děkujeme']
+            ];
+            require_once "./templates/breadcrumbs.php";
+        ?>
         <div class="homepage-photo">
             <div class="transparent-div">
                 <div class="text">
